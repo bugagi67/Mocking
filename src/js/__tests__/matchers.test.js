@@ -6,8 +6,6 @@ const characters = [
   { name: 'лучник', health: 80 },
 ];
 
-
-
 test('sddd', () => {
   const result = sortCharacters(characters);
 
