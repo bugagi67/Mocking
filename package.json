@@ -7,7 +7,11 @@
     "test": "jest --coverage",
     "build": "webpack --mode production",
     "start": "webpack serve --mode development",
-    "babel": "babel src -d dist"
+    "babel": "babel src -d dist",
+    "lint": "eslint .",
+    "lintfix": "eslint . --fix"
+    
+    
   },
   "author": "Dmitry Greshnov",
   "license": "ISC",
