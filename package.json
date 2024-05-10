@@ -1,7 +1,7 @@
 {
-  "name": "matchers",
+  "name": "mocking",
   "version": "1.0.0",
-  "description": "matchers",
+  "description": "mocking",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
@@ -10,8 +10,6 @@
     "babel": "babel src -d dist",
     "lint": "eslint .",
     "lintfix": "eslint . --fix"
-    
-    
   },
   "author": "Dmitry Greshnov",
   "license": "ISC",
